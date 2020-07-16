@@ -44,7 +44,7 @@ else{
 
 // Calculate number of bricks for specific height of building
 
-function bricksCalulator(number_of_floor)
+function brickCalulator(number_of_floor)
 {
     let brick_for_feet = 1000;
     let total_bricks;
@@ -81,7 +81,7 @@ else {
 // <--End 3-->
 
 // Finding the smallest length of my friends name.
-function tinyFriends(friends_name)
+function tinyFriend(friends_name)
 {
     var tinyfriend_name;
     var min = friends_name[0].length;
