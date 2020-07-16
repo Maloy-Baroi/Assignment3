@@ -76,7 +76,7 @@ else if (Math.round(floor_number) != floor_number)
     console.log("Floor should be completed. Floor number is not acceptable as fractional.");
 }
 else {
-    console.log("Total needed bricks:", bricksCalulator(floor_number));
+    console.log("Total needed bricks:", brickCalulator(floor_number));
 }
 // <--End 3-->
 
@@ -104,6 +104,6 @@ for(var i = 0; i < friends_name.length; i++)
         console.log("Array item can't be null");
     }
 }
-console.log("My tiny friend:", tinyFriends(friends_name));
+console.log("My tiny friend:", tinyFriend(friends_name));
 
 // <--End 4-->
